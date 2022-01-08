@@ -1,6 +1,6 @@
 # Define the location of your style and content images
-STYLE_IMAGE=find "/content/drive/MyDrive/rmit_repositories/neural-style-pt/examples/inputs" -maxdepth 1 -type f -exec echo "{}" \;
-CONTENT_IMAGE=./examples/haeckel_inputs/size_original_2500x3600.png 
+STYLE_IMAGE=./examples/inputs/brad_pitt.jpg
+CONTENT_IMAGE=./examples/inputs/brad_pitt.jpg
 
 # Adjust the parameters below to change the qualities of the ouputs
 STYLE_WEIGHT=5e2 #How much to weight the style reconstruction term. Default is 1e2.
